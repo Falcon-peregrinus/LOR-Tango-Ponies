@@ -61,4 +61,10 @@ border-top-right-radius: 10px !important;
 h2, h1 {
 border-radius: 5px !important;
 }
+.quote {
+border-color: #B9B9B9 !important;
+}
+ .stars {
+color: #F0B65B !important;
+}
 }
