@@ -67,4 +67,7 @@ border-color: #B9B9B9 !important;
 .stars {
 color: #E4E4E4 !important;
 }
+#bd h2 {
+padding-left: 1em !important;
+}
 }
