@@ -2,7 +2,7 @@
 
 @-moz-document domain("linux.org.ru") {
 body {
-  background-image: url(http://fc06.deviantart.net/fs71/i/2012/299/5/9/princess_luna_by_ostfront-d5j1k17.png) !important;
+  background-image: url("http://fc06.deviantart.net/fs71/i/2012/299/5/9/princess_luna_by_ostfront-d5j1k17.png") !important;
   background-size: cover !important;
   background-attachment: fixed !important;
   color: #CCCCCC !important;
@@ -23,10 +23,10 @@ color: #000000 !important;
 div.boxlet {
 background-color: rgba(39, 44, 45, 0.5) !important;
 }
-#hd, h2, h1, .infoblock, #whois_userpic, #contents, #user-menu{
+#hd, h2, h1, .infoblock, #whois_userpic, #contents, #user-menu, .page-number{
 background-color: rgba(39, 44, 45, 0.25) !important;
 }
-article, #bd, #ft, table, table th, #wiki-page, #nav-menu, #tab_menu li, .tag{
+article, #bd, #ft, table, table th, #wiki-page, #nav-menu, #tab_menu li, .tag, #related-topics, .code, pre{
 background-color: rgba(39, 44, 45, 0.5) !important;
 }
 .tag {
@@ -60,5 +60,17 @@ border-top-right-radius: 10px !important;
 }
 h2, h1 {
 border-radius: 5px !important;
+}
+.quote {
+border-color: #B9B9B9 !important;
+}
+.stars, .icon-tag {
+color: #E4E4E4 !important;
+}
+#bd h2 {
+padding-left: 1em !important;
+}
+.code pre {
+background-color: rgba(39, 44, 45, 0) !important;
 }
 }
